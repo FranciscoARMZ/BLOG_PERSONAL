@@ -1,0 +1,39 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.bandera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:  500px;
+    height: 400px;
+    background-color: black;
+    border: 2px; 
+    box-sizing: border-box;
+}
+.franja{
+    width: 100%;
+    height: calc( 100% /3);
+}
+.superior{
+    background-color: red
+}
+.central {
+    background-color: black;
+}
+.inferior {
+    background-color: darkgrey;
+}
+.simbolo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(253, 207, 0);
+    border-radius: 50%;
+}
